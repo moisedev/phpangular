@@ -7,7 +7,7 @@ Model : phpangular\students_api\ .env.local  <br/>
 Modification configuration selon votre serveur avec DATABASE_URL <br/>
 
 Dans le repértoire students_api :  <br/>
-exécuter les commandes suivantes 
+exécuter les commandes suivantes  <br/>
 2 -composer install --prefer-dist  <br/>
 3- php bin/console doctrine:database:create  <br/>
 4- php bin/console doctrine:migrations:migrate <br/>
