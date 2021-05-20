@@ -1,13 +1,1 @@
-
-###> symfony/framework-bundle ###
-students_api/.env.local
-students_api/.env.local.php
-students_api/.env.*.local
-students_api/config/secrets/prod/prod.decrypt.private.php
-students_api/public/bundles/
-students_api/var/
-students_api/vendor/
-###< symfony/framework-bundle ###
 /.idea
-students_api/.idea
-students/.idea
