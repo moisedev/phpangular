@@ -8,3 +8,6 @@ students_api/public/bundles/
 students_api/var/
 students_api/vendor/
 ###< symfony/framework-bundle ###
+/.idea
+students_api/.idea
+students/.idea

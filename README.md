@@ -3,7 +3,8 @@ Test pratique PHP/Angular <br/>
 
 # Installation back-end (Symfony pour un microservice, console application API version  5.2 ):  <br/>
 1- Ajout fichier environnement ( <b> .env </b> ):  <br/>
-Model : phpangular\students_api\ .env.local  <br/>
+Model : phpangular\students_api\ .env.local
+dupliquer le model et renommer le par .env <br/>
 Modification configuration selon votre serveur avec DATABASE_URL <br/>
 
 Dans le repértoire students_api :  <br/>
