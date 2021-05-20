@@ -1,17 +1,16 @@
 # phpangular
-Test pratique PHP/Angular
+Test pratique PHP/Angular <br/>
 
-# Installation back-end (Symfony pour un microservice, console application API version  5.2 ): 
-1- Copie fichier : 
-phpangular\students_api\.env.local par .env 
-Modification configuration selon votre serveur avec DATABASE_URL
+# Installation back-end (Symfony pour un microservice, console application API version  5.2 ):  <br/>
+1- Copie fichier :  <br/>
+phpangular\students_api\.env.local par .env  <br/>
+Modification configuration selon votre serveur avec DATABASE_URL <br/>
 
-Dans le repértoire students_api : 
+Dans le repértoire students_api :  <br/>
 exécuter les commandes suivantes 
-composer install --prefer-dist
-
-2- php bin/console doctrine:database:create
-3- php bin/console doctrine:migrations:migrate
+2 -composer install --prefer-dist  <br/>
+3- php bin/console doctrine:database:create  <br/>
+4- php bin/console doctrine:migrations:migrate <br/>
 
 # Installation front-end (Angular ):  <br/>
 1- Installation node js ( https://nodejs.org/en/download/) <br/>
@@ -20,6 +19,6 @@ npm install -g @angular/cli <br/>
 3- Dans le repértoire students :  <br/>
 npm install 
 
-4- Modification API_URL dans le fichier students/src/environments/environment.prod.ts
+4- Modification API_URL dans le fichier students/src/environments/environment.prod.ts <br/>
 
 ng serve
